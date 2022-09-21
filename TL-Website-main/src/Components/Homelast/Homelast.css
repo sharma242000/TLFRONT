@@ -1,0 +1,137 @@
+* {
+  margin: 2px;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+* {
+  margin: 0vw;
+  padding: 0vw;
+}
+
+.background {
+  background-color: #2a84ff;
+  border-radius: 0 0 4.5vw 4.5vw;
+  align-content: center;
+  align-items: center;
+}
+.first{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.bridge {
+  z-index: 1;
+  position: relative;
+  width: 45vw;
+  left: 1.2vw;
+  
+}
+
+.first h1 {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  left: 42vw;
+  top: 16vw;
+  font-size: 5vw;
+}
+.first p {
+  color: white;
+  position: absolute;
+  z-index: 2;
+  top: 21vw;
+  left: 1.5vw;
+  font-size: 1.6vw;
+  padding: 2vw;
+
+}
+.second{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+.vision {
+  z-index: 1;
+  position: relative;
+  top: 1vw;
+  width: 45vw;
+  left: 54vw;
+  
+}
+.second h1 {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  left: 38vw;
+  top: 45vw;
+  font-size: 5vw;
+}
+.second p {
+  color: white;
+  position: absolute;
+  z-index: 2;
+  top: 51vw;
+  left: 1.5vw;
+  font-size: 1.6vw;
+  padding: 2vw;
+}
+.third{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.mission {
+  z-index: 1;
+  position: relative;
+  width: 45vw;
+  left: 1.2vw;
+  
+}
+
+.third h1 {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  left: 37vw;
+  top: 76vw;
+  font-size: 5vw;
+}
+.third p {
+  color: white;
+  position: absolute;
+  z-index: 2;
+  top: 81vw;
+  left: 1.5vw;
+  font-size: 1.6vw;
+  padding: 2vw;
+
+}
